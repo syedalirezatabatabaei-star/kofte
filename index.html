@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="salammmmm khubi ">
+  <meta name="description" content="صفحه نمونه فارسی با منوی اصلی و دو بخش دارای ناوبری مستقل">
   <link rel="stylesheet" href="./css/main.css">
   <title>صفحه اصلی</title>
-
 </head>
 <body>
   <div class="container">
@@ -14,20 +13,49 @@
       <h1>به نام خداوند بخشنده مهربان</h1>
     </header>
 
-    <nav aria-label="منوی اصلی">
+    <nav class="main-nav" aria-label="منوی اصلی">
       <a href="#home">صفحه اصلی</a>
       <a href="#contact">تماس با ما</a>
       <a href="#about">درباره ما</a>
     </nav>
 
     <main class="layout" id="home">
-      <section class="content">
-        <h2>محتوای اصلی</h2>
-
+      <section class="content" aria-labelledby="content-title">
+        <h2 id="content-title">محتوای اصلی</h2>
+        <p>فهرست دسترسی به بخش‌های مختلف:</p>
+        <nav class="panel-nav" aria-label="ناوبری محتوای اصلی">
+          <a href="#intro">معرفی</a>
+          <a href="#services">خدمات</a>
+          <a href="#contact">راه‌های ارتباطی</a>
+        </nav>
       </section>
 
-      <aside class="sidebar">
-        <h2>باکس کناری</h2>
+      <aside class="sidebar" aria-labelledby="sidebar-title">
+        <h2 id="sidebar-title">باکس کناری</h2>
+        <p>این بخش فضای گسترده‌تری برای نمایش محتوا دارد و منوی ناوبری مستقل خودش را نیز دارد.</p>
+        <nav class="panel-nav sidebar-nav" aria-label="ناوبری باکس کناری">
+          <a href="#intro">معرفی</a>
+          <a href="#services">خدمات</a>
+          <a href="#about">درباره ما</a>
+          <a href="#contact">تماس با ما</a>
+        </nav>
+
+        <section id="intro">
+          <h3>معرفی</h3>
+          <p>به وب‌سایت ما خوش آمدید. محتوای موردنظر خود را می‌توانید در این قسمت قرار دهید.</p>
+        </section>
+        <section id="services">
+          <h3>خدمات</h3>
+          <p>این قسمت برای معرفی خدمات، مطالب و اطلاعات تکمیلی در نظر گرفته شده است.</p>
+        </section>
+        <section id="about">
+          <h3>درباره ما</h3>
+          <p>اطلاعات مربوط به مجموعه و فعالیت‌های آن در این بخش نمایش داده می‌شود.</p>
+        </section>
+        <section id="contact">
+          <h3>تماس با ما</h3>
+          <p>اطلاعات تماس و راه‌های ارتباطی را در این قسمت وارد کنید.</p>
+        </section>
       </aside>
     </main>
 
