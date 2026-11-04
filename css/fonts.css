@@ -1,0 +1,29 @@
+/* Local fonts supplied with this project. */
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../font/Yekan_Bakh_Regular.Byvis5zr.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../font/Yekan_Bakh_Medium.RlOqlP2J.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../font/Yekan_Bakh_Bold.DMVJaKBT.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lahzeh";
+  src: url("../font/Lahzeh-FaNum-Bold.BVow1UD2.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
