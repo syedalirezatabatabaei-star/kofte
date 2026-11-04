@@ -12680,3 +12680,19 @@ html[dir=rtl] {
             --tw-bg-opacity: 1;
             background-color: hsl(var(--twc-primary-0)/var(--twc-primary-0-opacity,var(--tw-bg-opacity)))
         }
+
+
+/* Footer social dock: pure HTML/SVG/CSS, no framework */
+.social-dock-defs{position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
+.social-dock-wrap{display:flex;justify-content:flex-start;padding:0 24px 28px}
+.website-footer .social-dock{display:flex;align-items:flex-end;gap:8px;width:fit-content;margin:0;padding:8px;list-style:none;border:1px solid rgba(255,255,255,.14);border-radius:20px;background:rgba(0,0,0,.20);box-shadow:0 18px 45px rgba(0,0,0,.22);-webkit-backdrop-filter:blur(22px);backdrop-filter:blur(22px)}
+.website-footer .social-dock>li{margin:0;padding:0}
+.website-footer .social-dock .social-dock-item{display:flex;align-items:center;justify-content:center;width:56px;height:56px;clip-path:url(#fincaSquircleClip);border:1px solid rgba(255,255,255,.22);border-radius:13px;color:#fff;box-shadow:0 7px 18px rgba(0,0,0,.20);cursor:pointer;transform:translateY(0) scale(1);transition:transform .3s ease-out,box-shadow .3s ease-out,filter .3s ease-out}
+.website-footer .social-dock-item svg{display:block;width:28px;height:28px;fill:currentColor}
+.website-footer .social-dock-github{background:linear-gradient(135deg,#4b5563,#111827)}
+.website-footer .social-dock-linkedin{background:linear-gradient(135deg,#2563eb,#1e40af)}
+.website-footer .social-dock-youtube{background:linear-gradient(135deg,#ef4444,#991b1b)}
+.website-footer .social-dock-discord{background:linear-gradient(135deg,#6366f1,#3730a3)}
+.website-footer .social-dock .social-dock-item:hover,.website-footer .social-dock .social-dock-item:focus-visible{z-index:1;outline:2px solid rgba(255,255,255,.8);outline-offset:3px;box-shadow:0 18px 32px rgba(0,0,0,.32);filter:brightness(1.12);transform:translateY(-8px) scale(1.10)}
+@media(max-width:600px){.social-dock-wrap{padding:0 16px 22px}.website-footer .social-dock{gap:6px;padding:7px}.website-footer .social-dock .social-dock-item{width:48px;height:48px}.website-footer .social-dock-item svg{width:25px;height:25px}}
+@media(prefers-reduced-motion:reduce){.website-footer .social-dock .social-dock-item{transition:none}}
