@@ -22,3 +22,70 @@ footer{background:#f5f7f2;border-top:1px solid #edf0e9}.footer-main{display:grid
 
 .course-cover img{width:88px;height:88px;object-fit:contain;position:relative;z-index:1}.course-cover:after{content:"";position:absolute;width:135px;height:135px;border-radius:50%;border:1px solid #ffffffa8}.community-section{background:#f4f7ef;padding:85px 0}.community-inner{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:70px}.community-inner h2,.contact-inner h2{font-size:40px;line-height:1.5;margin:10px 0}.community-inner p,.contact-inner p{font-size:13px;color:#7b877e;line-height:2.2;max-width:470px;margin-bottom:25px}.chat-art{height:290px;position:relative;display:grid;place-items:center}.chat-bubble{position:absolute;padding:15px 20px;border-radius:16px;background:#fff;box-shadow:0 12px 35px #1e302812;font-size:12px}.bubble-a{top:20px;right:0;background:#1e3028;color:white}.bubble-b{top:112px;left:0;background:#e8e0ff}.bubble-c{bottom:16px;right:35px;background:#fff}.chat-star{font-size:95px;color:#b8df6d;opacity:.5}.testimonial-section{padding-block:85px}.testimonial{max-width:760px;margin:auto;background:#f7f8f5;border-radius:20px;padding:35px 40px;position:relative}.quote-mark{font:80px Georgia;color:#a7cf68;line-height:.7}.testimonial p{font-size:15px;line-height:2.3;color:#58645b}.testimonial b,.testimonial span{display:block}.testimonial b{font-size:12px}.testimonial span{font-size:10px;color:#929c94}.contact-section{background:#f5f7f2;padding:80px 0}.contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.contact-details{display:flex;flex-direction:column;gap:10px;color:#6d7a70;font-size:12px}.contact-form{background:#fff;border:1px solid #edf0e9;border-radius:18px;padding:24px;display:grid;gap:14px}.contact-form label{font-size:11px;color:#59665c}.contact-form input{display:block;width:100%;height:47px;border:1px solid #e6ebe3;border-radius:10px;margin-top:6px;padding:0 12px;outline:none}.contact-form input:focus{border-color:#9cc75d}.contact-form .btn{width:100%}
 @media(max-width:720px){.community-inner,.contact-inner{grid-template-columns:1fr;gap:20px}.community-inner h2,.contact-inner h2{font-size:31px}.chat-art{height:230px}.testimonial-section{padding-block:65px}.testimonial{padding:25px}.testimonial p{font-size:12px}.contact-section{padding:60px 0}.contact-form{padding:18px}}
+
+
+/* Finca frontend color palette override */
+:root{--ink:#760615;--muted:#868876;--green:#B61714;--green-dark:#760615;--paper:#F0F1DB;--line:#e3dfca;--lav:#F5DCD8;--yellow:#F5DCD8;--brand-red:#B61714;--brand-pink:#AD4369;--brand-soft:#F5DCD8;--brand-olive:#868876}
+body{background:#fff;color:#760615}
+.site-header{background:rgba(240,241,219,.94);border-bottom-color:#e3dfca}
+.brand-mark,.btn-primary,.avatar-stack i:nth-child(4){background:#B61714;color:#F0F1DB}
+.btn-dark{background:#760615;color:#F0F1DB}
+.btn-primary:hover{background:#AD4369;color:#fff}
+.main-nav a,.login-link{color:#868876}
+.main-nav a:hover,.login-link:hover,.text-link{color:#B61714}
+.eyebrow,.tiny-label{color:#AD4369}
+.pulse,.live-dot{background:#B61714;box-shadow:0 0 0 5px #B6171422}
+.highlight:after{background:#F5DCD8}
+.hero-lead,.section-heading p,.community-inner p,.contact-inner p{color:#868876}
+.hero-orbit{border-color:#e7e4d2}
+.learning-card,.hero-note{border-color:#e8e1d5}
+.progress-ring{background:conic-gradient(#B61714 0 72%,#F5DCD8 72% 100%)}
+.mini-progress span{background:#AD4369}
+.lesson-check,.lesson-play{background:#F5DCD8;color:#760615}
+.lesson-play{background:#f3e5df;color:#AD4369}
+.purple,.icon-lilac{background:#F5DCD8;color:#760615}
+.yellow,.icon-yellow{background:#F0F1DB;color:#B61714}
+.shape-b{color:#AD4369}
+.login-strip,.community-section,.contact-section{background:#F0F1DB}
+.tiny-label,.login-strip h2{color:#760615}
+.login-strip p,.hero-proof small,.hero-note small,.learning-card>p,.progress-ring small{color:#868876}
+.ticker{background:#760615;color:#F0F1DB}
+.ticker-track b{color:#F5DCD8}
+.feature-card{background:#F5DCD8}
+.feature-main{background:#F0F1DB}
+.ai-orb{background:linear-gradient(145deg,#AD4369,#760615);box-shadow:0 20px 45px #76061530}
+.ai-chip{color:#760615;border-color:#ead6cc}
+.chip-three{background:#760615;color:#F0F1DB}
+.category-card,.course-card{border-color:#e8e1d5}
+.cat-code,.cat-data,.cat-design,.cat-ai{background:#F5DCD8;color:#760615}
+.category-symbol{color:#B61714}
+.cat-arrow,.course-footer a{background:#760615;color:#F0F1DB}
+.course-meta span:first-child,.cover-tag{background:#F5DCD8;color:#760615}
+.course-cover{background:#F0F1DB}
+.stats-section{background:#760615;color:#F0F1DB}
+.stats-copy p,.stat-box span{color:#e6c9c5}
+.stat-box{border-color:#AD4369}
+.stat-box b{color:#F5DCD8}
+.chat-bubble{color:#760615}
+.bubble-a{background:#760615;color:#F0F1DB}
+.bubble-b{background:#F5DCD8}
+.chat-star{color:#AD4369}
+.testimonial{background:#F0F1DB}
+.quote-mark{color:#B61714}
+.testimonial p,.testimonial span{color:#868876}
+.app-section{background:#fff}
+.app-glow{background:#F5DCD8}
+.app-phone{border-color:#760615}
+.phone-screen{background:#F0F1DB;color:#760615}
+.phone-logo{background:#B61714;color:#F0F1DB}
+.phone-progress i{background:#AD4369}
+.phone-course>span{background:#F5DCD8;color:#760615}
+.contact-form{border-color:#e8e1d5}
+.contact-form input{border-color:#e3dfca;color:#760615}
+.contact-form input:focus{border-color:#AD4369;box-shadow:0 0 0 3px #AD436922}
+.form-message{color:#868876}
+.footer-cta{background:#B61714;color:#F0F1DB}
+footer{background:#760615;color:#F0F1DB}
+.footer-col a,.footer-about p,.footer-contact p,.footer-bottom{color:#e6c9c5}
+.footer-brand .brand-mark{background:#F5DCD8;color:#760615}
+::selection{background:#AD4369;color:#fff}
